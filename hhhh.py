@@ -20,3 +20,6 @@ for linia in file("lorem.txt"):
     if re.search(s,linia):
         licznik=licznik + 1
 print(licznik)
+
+
+dopisuje tutaj jakies pierdolety
