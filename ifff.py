@@ -3,10 +3,11 @@
 
 while True:
     reply = input('wpisz tekst:')
-    if reply == 'stop' :
-        break
-    elif not reply.isdigit():
-        print('niepoprawne! ' *5)
+    if reply == 'stop': break
+    try:
+        num = int(reply
+    except:
+            print('niepoprawne! ' *5)
     else:
         print(int(reply)**2)
 print('kuniec')
