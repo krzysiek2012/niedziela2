@@ -8,5 +8,9 @@ while True:
     elif not reply.isdigit():
         print('niepoprawne! ' *5)
     else:
-        print(int(reply)**2)
+        num = int(reply)
+    if num < 20:
+            print('mało')
+    else:
+        print(num**2)
 print('kuniec')
